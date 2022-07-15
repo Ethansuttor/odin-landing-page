@@ -6,20 +6,21 @@
 
 .header {
     padding-left: 10px;
-    justify-content: center;
+    align-content: center;
     display: flex;
     flex-direction: row;
     
     
     
 }
- a {
+ a, .links{
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
     text-decoration:none ;
     color: #e5e7eb;
     font-size: 18px;
+    margin-left: 10px;
    
 
 
@@ -28,6 +29,6 @@
     font-size: 24px;
     color: #f9faf8;
     display: flex;
-    align-content: flex-start;
-    
+    align-content: left;
+    justify-content: end;
  }
