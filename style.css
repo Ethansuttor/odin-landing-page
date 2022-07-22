@@ -4,8 +4,8 @@
 }
 
 .header {
-    padding-left: 100px;
-   
+    margin-left: 100px;
+    margin-right: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -58,13 +58,13 @@
 .button{
    width: 65px;
    background-color: #3882f6;
-   border-radius: 25px;
+   border-radius: 10px;
    height: 30px;
-   
+   border: 20px;
 }
 
 
-.mid, .left {
+.mid-top, .left {
    display: flex;
    
    margin: 0px 10px 0px
@@ -77,9 +77,11 @@
    width: 300px;
    align-items: flex-start;
 }
-.mid {
+.mid-top {
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
+   margin-left: 100px;
+   margin-right: 100px;
 
 }
 
@@ -97,3 +99,65 @@
 }
 
 
+.mid {
+   background-color: #fff;
+  height: 220px;
+ justify-content: center;
+
+}
+
+.info{
+   font-size: 36px;
+   color: #1f2937;
+   justify-content: center;
+   display: flex;
+}
+
+.box {
+   height: 100px;
+   width: 100px;
+   border: 2px;
+   border-style: solid;
+   border-color: #3882f6;
+   border-radius: 10px;
+   
+}
+
+.boxes{
+   display: flex;
+   padding: 0px;
+   justify-content: space-around ;
+   margin: 0;
+   margin-top: 20px;
+   width: 600px;
+}
+
+.box-content{
+   display: flex;
+   justify-content: center;
+}
+
+.box-box{
+   display: flex;
+   justify-content: center;
+}
+
+.quote-box{
+   background-color: #e5e7eb;
+   
+   
+}
+.quote{
+   font-size: 36px;
+   font-style:  italic;
+   color:#1f2937;
+   justify-content: center;
+margin: 0px 150px 0px;
+border-top: 20px;
+}
+.sayer{
+   font-weight: bold;
+   color:rgb(61, 61, 61);
+   font-size: 24px;
+   
+}
